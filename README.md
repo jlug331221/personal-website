@@ -1,4 +1,4 @@
-# My Personal Website | Developed Using VueJS
+# The personal website of Justin Lugo.
 
 ## Project setup
 ```
@@ -24,4 +24,3 @@ npm run test
 ```
 npm run lint
 ```
-# The personal website of Justin Lugo. The site is built using VueJS.
