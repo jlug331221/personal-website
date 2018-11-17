@@ -92,7 +92,6 @@ export default {
 
     h1.header-name-title {
       position: absolute;
-      top: 15%;
       padding-bottom: .15rem;
       white-space: nowrap;
       transform: translate(-50%, -50%);
@@ -101,7 +100,7 @@ export default {
       border-bottom: 2px solid #FFF;
 
       left: 50%;
-      top: 12.5%;
+      top: 15%;
       letter-spacing: 1.5px;
 
       @media only screen and (min-width: 320px) {
