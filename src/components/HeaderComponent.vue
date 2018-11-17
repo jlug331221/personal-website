@@ -100,22 +100,32 @@ export default {
       border-bottom: 2px solid #FFF;
 
       left: 50%;
-      top: 15%;
+      top: 13.5%;
       letter-spacing: 1.5px;
 
       @media only screen and (min-width: 320px) {
-        top: 13% ;
+        top: 20%;
+        font-size: 1rem;
+      }
+
+      @media only screen and (min-width: 320px) and (min-height: 800px){
+        top: 15%;
         font-size: 1rem;
       }
 
       @media only screen and (min-width: 375px) {
-        top: 15.5% ;
+        top: 20.5% ;
+        font-size: 1.2rem;
+      }
+
+      @media only screen and (min-width: 375px) and (min-height: 800px){
+        top: 17.5%;
         font-size: 1.2rem;
       }
 
       @media only screen and (min-width: 425px) {
         top: 18.5%;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
       }
 
       @media only screen and (min-width: 768px) {
@@ -125,6 +135,11 @@ export default {
 
       @media only screen and (min-width: 1024px) {
         top: 40%;
+        font-size: 2.25rem;
+      }
+
+      @media only screen and (min-width: 1024px) and (min-height: 1300px){
+        top: 27%;
         font-size: 2.25rem;
       }
 
