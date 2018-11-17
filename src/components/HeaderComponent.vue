@@ -25,9 +25,9 @@ export default {
     margin-top: -4rem;
 
     nav {
-      margin-bottom: -1.6rem;
+      margin-bottom: -1.5rem;
       z-index: 1;
-      padding-top: 0.5rem;
+      padding-top: .7rem;
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -101,6 +101,7 @@ export default {
       border-bottom: 2px solid #FFF;
 
       left: 50%;
+      top: 12.5%;
       letter-spacing: 1.5px;
 
       @media only screen and (min-width: 320px) {

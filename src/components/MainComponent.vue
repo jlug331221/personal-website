@@ -111,6 +111,28 @@ export default {
         font-weight: bolder;
         text-align: right;
       }
+
+      em {
+        small {
+          font-size: .5rem;
+
+          @media only screen and (min-width: 425px) {
+            font-size: .6rem;
+          }
+
+          @media only screen and (min-width: 768px) {
+            font-size: .8rem;
+          }
+
+          @media only screen and (min-width: 1024px) {
+            font-size: .9rem;
+          }
+
+          @media only screen and (min-width: 1400px) {
+            font-size: 1rem;
+          }
+        }
+      }
     }
 
     section.about, section.employment {
