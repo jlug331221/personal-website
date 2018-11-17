@@ -1,14 +1,18 @@
 {
-  "name": "personal-website",
-  "version": "0.1.0",
+  "name": "justin-lugo-personal-website",
+  "author": "Justin Lugo",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy" : "gh-pages -d dist"
   },
+  "homepage": "https://jlug331221.github.io/personal-website",
   "dependencies": {
     "bulma": "^0.7.2",
+    "gh-pages": "^2.0.1",
     "vue": "^2.5.17"
   },
   "devDependencies": {
