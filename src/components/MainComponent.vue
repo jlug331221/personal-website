@@ -9,12 +9,12 @@
             </div>
 
             <p>
-              <span>H</span>owdy, my name is Justin! I am 30 years young and was born and raised
-              in San Antonio, Texas. <strong>REMEMBER THE ALAMO!!!</strong> I am an only child and 
-              my birthday is in December. I was a POG in the military (USMC) for a fortnight but 
+              <span>H</span>owdy, my name is Justin! I am {{ myAge }} years young and was born and raised
+              in San Antonio, Texas. <strong>REMEMBER THE ALAMO!!!</strong> I am an only child and
+              my birthday is in December. I was a POG in the military (USMC) for a fortnight but
               have been a civilian since May of 2013. I once lived in North Carolina for about 6
               years. Then I moved back to Texas, and then to Oklahoma, and now I'm back in North
-              Carolina! I do love me some Jeeps! I specifically have a passion for the CJ-7 and 
+              Carolina. I do love me some Jeeps! I specifically have a passion for the CJ-7 and
               used to own a classic 1984. I currently drive a 2018 Jeep Wrangler JK.
             </p>
 
@@ -22,8 +22,8 @@
               My hobbies include tinkering with my Jeep and reading or watching anything related
               to sci-fi, history, and fantasy. I also love to fish and have only recently started
               to learn to play guitar thanks to my friend David. Some of my favorite books, films,
-              and shows include the following: The Expanse, LoTR &amp; The Hobbit, The Kingkiller 
-              Chronicle, Out with the Old Breed: At Peleliu and Okinawa, The Count of Monte 
+              and shows include the following: The Expanse, LoTR &amp; The Hobbit, The Kingkiller
+              Chronicle, Out with the Old Breed: At Peleliu and Okinawa, The Count of Monte
               Cristo, The Forever War, and on and on... Oh, I really enjoy western films, with my
               favorite being Tombstone.
             </p>
@@ -52,21 +52,21 @@
             <p>
               I started my education immediately after high school, when I attended the University
               of Texas at San Antonio. I don't really remember much of that time but I did attend
-              each and every lecture. 
+              each and every lecture.
             </p>
 
             <p>
               During my military service, I was stationed in North Carolina and decided to stay
-              there and finish my undergraduate degree at East Carolina University. 
-              <strong class="white-bold">Go Pirates!!!</strong> I received my degree in Computer
-              Science and graduated in May 2016 with a 3.8 GPA.
+              there and finish my undergraduate degree at East Carolina University.
+              <strong class="white-bold">Go Pirates!!!</strong> I received my bachelor's degree in
+              Computer Science and graduated in May 2016 with a 3.8 GPA.
             </p>
 
             <p>
-              My final educational persuit sent me back to Lubbock, TX, where I attended Texas
-              Tech University. <strong>Go Red Raiders!!!</strong> While there I once again decided
-              to study Computer Science and received my Master's degree in May 2018 with a final
-              GPA of 4.0.
+              My most recent formal educational persuit sent me to Lubbock, Texas, where I
+              attended Texas Tech University. <strong>Go Red Raiders!!!</strong> While there, I
+              once again decided to study Computer Science and received my master's degree in May
+              2018 with a final GPA of 4.0.
             </p>
 
             <em><small><a href="#top">Back to top</a></small></em>
@@ -75,13 +75,13 @@
 
         <div class="columns is-tablet">
           <div class="column is-half">
-            <figure class="image is-128x128 is-inline-block">
+            <figure class="image is-inline-block education-seal">
               <img src="../assets/images/texas-tech-seal.png" alt="Texas Tech Seal">
             </figure>
           </div>
 
           <div class="column is-half">
-            <figure class="image is-128x128 is-fullwidth is-inline-block">
+            <figure class="image is-inline-block education-seal">
               <img src="../assets/images/east-carolina-seal.png" alt="East Carolina Seal">
             </figure>
           </div>
@@ -102,13 +102,13 @@
               really didn't know what I wanted to do as an adult but I thought a verterinarian
               would be a good job. I did this for about two years before joining the military.
             </p>
-            
+
             <p>
               I enlisted in the United States Marine Corps towards the end of May 2009. My MOS in
               the USMC was 0651 - Data Network Specialist. That might be labeled differently now
               but I think it is Cyber Network Operator. During my time, I did get the opportunity
               to deploy for one year, February 2011 through February 2012. My military service
-              ended in May 2013. 
+              ended in May 2013.
             </p>
 
             <p>
@@ -119,11 +119,11 @@
             </p>
 
             <p>
-              The Summer before entering graduate school, I was a teacher for Youth Code Jam of
+              The summer before entering graduate school, I was a teacher for Youth Code Jam of
               San Antonio. I taught programming to elementary through high school students, with
-              an emphasis on C++, Java, and the beginner language Scratch. I also held another
-              position that Summer with Austin Coding Academy, where I taught adults basic web
-              development. 
+              an emphasis on C++, Java, and the beginner coding language Scratch. I also held
+              another position that summer with Austin Coding Academy, where I taught adults basic
+              web development, particularly HTML and CSS.
             </p>
 
             <p>
@@ -144,10 +144,10 @@
             </p>
 
             <p>
-              If you have managed to read the <em>About Me</em> section above, then you'll know of my love
-              of motorsport. This has led me to my current position within the Haas Formula 1 Team.
-              I am a Software Engineer within the Computational Fluid Dynamics department. I have
-              been at this position since late June, 2019.
+              If you have managed to read the <em>About Me</em> section above, then you'll know of
+              my love of motorsport. This has led me to my current position within the Haas Formula
+              1 Team. I am a Software Engineer within the Computational Fluid Dynamics department.
+              I have been at this position since late June, 2019.
             </p>
 
             <em><small><a href="#top">Back to top</a></small></em>
@@ -162,15 +162,33 @@
 
 export default {
 
-  name: 'MainComponent'
+  name: 'MainComponent',
 
-  // data: function getAge(birthdate) {
-    
-  //   const yearInMilliSecs = 3.15576e+10
+  data() {
 
-  //   return Math.floor((new Date() - new Date(birthdate).getTime()) / yearInMilliSecs)
-    
-  // }
+    return {
+      
+      myAge: 0
+
+    }
+
+  },
+
+  methods: {
+
+    getAge(birthdate) {
+      const yearInMilliSecs = 3.15576e+10
+
+      return Math.floor((new Date() - new Date(birthdate).getTime()) / yearInMilliSecs)
+    }
+
+  },
+
+  created() {
+
+    this.myAge = this.getAge('1988-12-21')
+      
+  }
 
 }
 
@@ -255,6 +273,16 @@ export default {
           @media only screen and (min-width: 1400px) {
             font-size: 1rem;
           }
+        }
+      }
+
+      figure.education-seal {
+        height: 128px;
+        width: 128px;
+
+        @media only screen and (min-width: 768px) {
+          height: 256px;
+          width: 256px;
         }
       }
     }
