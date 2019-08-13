@@ -1,26 +1,37 @@
 <template>
+
   <footer>
     <div class="icons-footer">
       <a href="https://github.com/jlug331221" target="_blank">
         <span class="icon">
           <img src="../assets/images/GitHub.png" alt="GitHub Logo" title="My GitHub">
         </span>
+
+        <!-- <span class="icon">
+          <img src="../assets/images/email.svg" alt="Email" title="Email Me">
+        </span> -->
       </a>
     </div>
 
-    <p class="name-copywrite-footer">Justin Lugo | <small>&copy;</small>&nbsp;{{ new Date().getFullYear() }}</p>
+    <p class="name-copywrite-footer">
+      Justin Lugo | <small>&copy;</small>&nbsp;{{ new Date().getFullYear() }}
+    </p>
   </footer>
+
 </template>
 
 <script>
+
 export default {
   name: 'FooterComponent'
 }
+
 </script>
 
 <style scoped lang="scss">
+
   footer {
-    //margin-top: -1.5rem;
+    padding-bottom: 1rem;
     background-color: #312C2F;
     display: flex;
     justify-content: center;
@@ -38,4 +49,5 @@ export default {
       padding-bottom: 1rem;
     }
   }
+
 </style>

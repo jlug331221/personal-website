@@ -7,8 +7,34 @@
             <div class="heading">
               <h2>About Me</h2>
             </div>
-            <p><span>H</span>owdy, my name is Justin! I am 29 years young and was born and raised in San Antonio, Texas. <strong>REMEMBER THE ALAMO!!!</strong> I am an only child and my birthday is in December. I was a POG in the military (USMC) for a fortnight but have been a civilian since May of 2013. I once lived in North Carolina for almost 7 years but now I live and work in Oklahoma. I love Jeeps! I specifically have a passion for the CJ-7 and have my own classic 1984. I also have a 2018 Jeep Wrangler JK.</p>
-            <p>My hobbies include tinkering with my Jeep (old and new) and reading or watching anything sci-fi, history, and a tad bit of fantasy. Some of my favorites include The Expanse (books and tv series), LoTR &amp; The Hobbit (books and movies), The Kingkiller Chronicle, Out with the Old Breed: At Peleliu and Okinawa, The Count of Monte Cristo and on and on. Also, I really enjoy western films with my favorite being Tombstone.</p>
+
+            <p>
+              <span>H</span>owdy, my name is Justin! I am 30 years young and was born and raised
+              in San Antonio, Texas. <strong>REMEMBER THE ALAMO!!!</strong> I am an only child and 
+              my birthday is in December. I was a POG in the military (USMC) for a fortnight but 
+              have been a civilian since May of 2013. I once lived in North Carolina for about 6
+              years. Then I moved back to Texas, and then to Oklahoma, and now I'm back in North
+              Carolina! I do love me some Jeeps! I specifically have a passion for the CJ-7 and 
+              used to own a classic 1984. I currently drive a 2018 Jeep Wrangler JK.
+            </p>
+
+            <p>
+              My hobbies include tinkering with my Jeep and reading or watching anything related
+              to sci-fi, history, and fantasy. I also love to fish and have only recently started
+              to learn to play guitar thanks to my friend David. Some of my favorite books, films,
+              and shows include the following: The Expanse, LoTR &amp; The Hobbit, The Kingkiller 
+              Chronicle, Out with the Old Breed: At Peleliu and Okinawa, The Count of Monte 
+              Cristo, The Forever War, and on and on... Oh, I really enjoy western films, with my
+              favorite being Tombstone.
+            </p>
+
+            <p>
+              My latest interest is motorsports. I enjoy all types of motor racing, but my favorite
+              is Formula 1. My favorite all time driver is Fernando Alonso, but I don't really
+              have a favorite driver within the current grid (maybe K Mag ??). Actually, my love
+              of F1 has taken me from my beloved Texas and brought me back to North Carolina.
+            </p>
+
             <em><small><a href="#top">Back to top</a></small></em>
           </div>
         </div>
@@ -23,8 +49,41 @@
               <h2>Education</h2>
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id dignissim lectus. Mauris consectetur cursus metus vitae convallis. Nam enim velit, eleifend vitae orci sit amet, facilisis mattis dui. Mauris id tellus tempor mi consequat commodo. Sed accumsan sed sem eu ultrices. Duis non arcu nulla. Suspendisse in nunc sed magna varius mollis quis et mauris. Phasellus ac lacus vulputate, iaculis metus ac, vulputate dui. Nulla at mi vitae urna pretium cursus a id diam. In maximus tristique lorem, vitae laoreet nisi semper vitae. Nam at venenatis tellus. Morbi vel lectus sit amet libero rutrum pellentesque eget sed nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+            <p>
+              I started my education immediately after high school, when I attended the University
+              of Texas at San Antonio. I don't really remember much of that time but I did attend
+              each and every lecture. 
+            </p>
+
+            <p>
+              During my military service, I was stationed in North Carolina and decided to stay
+              there and finish my undergraduate degree at East Carolina University. 
+              <strong class="white-bold">Go Pirates!!!</strong> I received my degree in Computer
+              Science and graduated in May 2016 with a 3.8 GPA.
+            </p>
+
+            <p>
+              My final educational persuit sent me back to Lubbock, TX, where I attended Texas
+              Tech University. <strong>Go Red Raiders!!!</strong> While there I once again decided
+              to study Computer Science and received my Master's degree in May 2018 with a final
+              GPA of 4.0.
+            </p>
+
             <em><small><a href="#top">Back to top</a></small></em>
+          </div>
+        </div>
+
+        <div class="columns is-tablet">
+          <div class="column is-half">
+            <figure class="image is-128x128 is-inline-block">
+              <img src="../assets/images/texas-tech-seal.png" alt="Texas Tech Seal">
+            </figure>
+          </div>
+
+          <div class="column is-half">
+            <figure class="image is-128x128 is-fullwidth is-inline-block">
+              <img src="../assets/images/east-carolina-seal.png" alt="East Carolina Seal">
+            </figure>
           </div>
         </div>
       </div>
@@ -38,7 +97,59 @@
               <h2>Employment</h2>
             </div>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id dignissim lectus. Mauris consectetur cursus metus vitae convallis. Nam enim velit, eleifend vitae orci sit amet, facilisis mattis dui. Mauris id tellus tempor mi consequat commodo. Sed accumsan sed sem eu ultrices. Duis non arcu nulla. Suspendisse in nunc sed magna varius mollis quis et mauris. Phasellus ac lacus vulputate, iaculis metus ac, vulputate dui. Nulla at mi vitae urna pretium cursus a id diam. In maximus tristique lorem, vitae laoreet nisi semper vitae. Nam at venenatis tellus. Morbi vel lectus sit amet libero rutrum pellentesque eget sed nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+            <p>
+              My first job after graduating high school (2007) was a veterinarian technician. I
+              really didn't know what I wanted to do as an adult but I thought a verterinarian
+              would be a good job. I did this for about two years before joining the military.
+            </p>
+            
+            <p>
+              I enlisted in the United States Marine Corps towards the end of May 2009. My MOS in
+              the USMC was 0651 - Data Network Specialist. That might be labeled differently now
+              but I think it is Cyber Network Operator. During my time, I did get the opportunity
+              to deploy for one year, February 2011 through February 2012. My military service
+              ended in May 2013. 
+            </p>
+
+            <p>
+              During my undergraduate studies at ECU (2013 - 2016), I utilized my training from the
+              military and maintained a job within the student computing IT department on campus. I
+              did this for about a year and a half. Then, during my final two semesters, I tutored
+              Biology and was also the IT administrator for Atheletic Student Development.
+            </p>
+
+            <p>
+              The Summer before entering graduate school, I was a teacher for Youth Code Jam of
+              San Antonio. I taught programming to elementary through high school students, with
+              an emphasis on C++, Java, and the beginner language Scratch. I also held another
+              position that Summer with Austin Coding Academy, where I taught adults basic web
+              development. 
+            </p>
+
+            <p>
+              Upon arriving at Texas Tech in August 2016, I was able to get a job within the
+              College of Media and Communications as a Web Application Developer. I did this for
+              my first year of graduate school. During the summer leading into my final year, I was
+              awarded the SMART Scholarship. This was a fully funded scholarship and excellent
+              opportunity that allowed me to focus full time on my studies. Thus, my only job
+              during my last two semesters at Texas Tech was to be a good student.
+            </p>
+
+            <p>
+              The SMART Scholarship included a one year commitment of federal government work
+              once I had graduated. This commitment sent me to Oklahoma City, Oklahoma. I held
+              a position as a Computer Scientist on Tinker Air Force Base. My job was to maintain
+              software for the suite of applications within the E-3 AWACS aircraft. My time there
+              lasted from June 2018 through June 2019.
+            </p>
+
+            <p>
+              If you have managed to read the <em>About Me</em> section above, then you'll know of my love
+              of motorsport. This has led me to my current position within the Haas Formula 1 Team.
+              I am a Software Engineer within the Computational Fluid Dynamics department. I have
+              been at this position since late June, 2019.
+            </p>
+
             <em><small><a href="#top">Back to top</a></small></em>
           </div>
         </div>
@@ -48,12 +159,25 @@
 </template>
 
 <script>
+
 export default {
+
   name: 'MainComponent'
+
+  // data: function getAge(birthdate) {
+    
+  //   const yearInMilliSecs = 3.15576e+10
+
+  //   return Math.floor((new Date() - new Date(birthdate).getTime()) / yearInMilliSecs)
+    
+  // }
+
 }
+
 </script>
 
 <style scoped lang="scss">
+
   main.main-content {
     margin-top: -1.5rem;
 
@@ -148,6 +272,11 @@ export default {
       a {
         color: #FFF;
       }
+
+      strong {
+        color: #FFF;
+      }
     }
   }
+
 </style>

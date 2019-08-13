@@ -1,4 +1,5 @@
 <template>
+
   <header id=top class=hero content>
     <nav class="navigation">
       <a href="#about">About</a>
@@ -12,15 +13,19 @@
 
     <h1 class="header-name-title"><strong>Justin Lugo</strong></h1>
   </header>
+
 </template>
 
 <script>
+
 export default {
   name: 'HeaderComponent'
 }
+
 </script>
 
 <style scoped lang="scss">
+
   header {
     margin-top: -4rem;
 
@@ -158,4 +163,5 @@ export default {
       }
     }
   }
+
 </style>
