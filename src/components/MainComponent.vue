@@ -5,7 +5,7 @@
         <div class="columns is-tablet">
           <div class="column is-8 is-offset-2">
             <div class="heading">
-              <h2>About Me</h2>
+              <h2><span>About Me</span></h2>
             </div>
 
             <p>
@@ -46,7 +46,7 @@
         <div class="columns is-tablet">
           <div class="column is-8 is-offset-2">
             <div class="heading">
-              <h2>Education</h2>
+              <h2><span>Education</span></h2>
             </div>
 
             <p>
@@ -94,7 +94,7 @@
         <div class="columns is-tablet">
           <div class="column is-8 is-offset-2">
             <div class="heading">
-              <h2>Employment</h2>
+              <h2><span>Employment</span></h2>
             </div>
 
             <p>
@@ -200,6 +200,7 @@ export default {
     margin-top: -1.5rem;
 
     h2 {
+      overflow: hidden;
       text-align: center;
       color: white;
       font-size: .75rem;
@@ -219,6 +220,29 @@ export default {
       @media only screen and (min-width: 1024px) {
         font-size: 1.6rem;
       }
+    }
+
+    h2 > span {
+      position: relative;
+      display: inline-block;
+    }
+
+    h2 > span:before, h2 > span:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      border-bottom: 2px solid;
+      width: 592px; /* half of limiter */
+      margin: 0 .6rem;
+      color: #C00;
+    }
+
+    h2 > span:before {
+      right: 100%;
+    }
+
+    h2 > span:after {
+      left: 100%;
     }
 
     section {
@@ -280,7 +304,7 @@ export default {
         height: 128px;
         width: 128px;
 
-        @media only screen and (min-width: 768px) {
+        @media only screen and (min-width: 1024px) {
           height: 256px;
           width: 256px;
         }
