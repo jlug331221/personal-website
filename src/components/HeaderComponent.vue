@@ -2,16 +2,18 @@
 
   <header id=top class=hero content>
     <nav class="navigation">
-      <a href="#about">About</a>
-      <a href="#education">Education</a>
-      <a href="#employment">Employment</a>
+      <a class="red-underline" href="#about">About</a>
+      <a class="red-underline" href="#education">Education</a>
+      <a class="red-underline" href="#employment">Employment</a>
     </nav>
 
-    <figure class="image dark-tint-img">
-      <img src="../assets/images/myJeep-cj7.jpg" alt="Mary Jane">
-    </figure>
+    <div class="image-with-centered-text">
+      <figure class="image dark-tint-img">
+        <img src="../assets/images/myJeep-cj7.jpg" alt="Mary Jane">
+      </figure>
 
-    <h1 class="header-name-title"><strong>Justin Lugo</strong></h1>
+      <h1 class="header-name-title"><strong>Justin Lugo</strong></h1>
+    </div>
   </header>
 
 </template>
@@ -95,71 +97,31 @@ export default {
       transition: all .3s linear;
     }
 
-    h1.header-name-title {
-      position: absolute;
-      padding-bottom: .15rem;
-      white-space: nowrap;
-      transform: translate(-50%, -50%);
-      text-align: center;
-      text-transform: uppercase;
-      border-bottom: 2px solid #FFF;
+    div.image-with-centered-text {
+      display: flex;
+      flex-direction: column;
+      position: relative;
 
-      left: 50%;
-      top: 13.5%;
-      letter-spacing: 1.5px;
-
-      @media only screen and (min-width: 320px) {
-        top: 20%;
-        font-size: 1rem;
-      }
-
-      @media only screen and (min-width: 320px) and (min-height: 800px){
-        top: 15%;
-        font-size: 1rem;
-      }
-
-      @media only screen and (min-width: 375px) {
-        top: 20.5% ;
-        font-size: 1.2rem;
-      }
-
-      @media only screen and (min-width: 375px) and (min-height: 800px){
-        top: 17.5%;
-        font-size: 1.2rem;
-      }
-
-      @media only screen and (min-width: 425px) {
-        top: 18.5%;
-        font-size: 1.4rem;
-      }
-
-      @media only screen and (min-width: 768px) {
-        top: 30%;
-        font-size: 2rem;
-      }
-
-      @media only screen and (min-width: 1024px) {
-        top: 40%;
-        font-size: 2.25rem;
-      }
-
-      @media only screen and (min-width: 1024px) and (min-height: 1300px){
-        top: 27%;
-        font-size: 2.25rem;
-      }
-
-      @media only screen and (min-width: 1400px) {
+      h1.header-name-title {
+        position: absolute;
+        left: 50%;
         top: 50%;
-        font-size: 3rem;
-      }
+        transform: translate(-50%, -50%);
+        text-transform: uppercase;
+        font-weight: bold;
+        letter-spacing: 1px;
+        
+        strong {
+          color: white
+        }
 
-      @media only screen and (min-width: 1600px) {
-        top: 70%;
-        font-size: 3.5rem;
-      }
+        @media only screen and (min-width: 768px) {
+          font-size: 1.5rem;
+        }
 
-      strong {
-        color: white;
+        @media only screen and (min-width: 1200px) {
+          font-size: 2.5rem;
+        }
       }
     }
   }

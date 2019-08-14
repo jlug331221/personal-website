@@ -36,7 +36,7 @@ export default {
       font-family: $raleway;
     }
 
-    a:after {
+    a.red-underline:after {
       content: '';
       display: block;
       margin: auto;
@@ -46,7 +46,7 @@ export default {
       transition: width .5s ease, background-color .5s ease;
     }
 
-    a:hover:after {
+    a.red-underline:hover:after {
       width: 100%;
       background: #C00;
     }

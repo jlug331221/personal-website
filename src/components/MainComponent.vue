@@ -35,7 +35,7 @@
               of F1 has taken me from my beloved Texas and brought me back to North Carolina.
             </p>
 
-            <em><small><a href="#top">Back to top</a></small></em>
+            <em><small><a class="red-underline" href="#top">Back to top</a></small></em>
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@
               2018 with a final GPA of 4.0.
             </p>
 
-            <em><small><a href="#top">Back to top</a></small></em>
+            <em><small><a class="red-underline" href="#top">Back to top</a></small></em>
           </div>
         </div>
 
@@ -150,7 +150,7 @@
               I have been at this position since late June, 2019.
             </p>
 
-            <em><small><a href="#top">Back to top</a></small></em>
+            <em><small><a class="red-underline" href="#top">Back to top</a></small></em>
           </div>
         </div>
       </div>
