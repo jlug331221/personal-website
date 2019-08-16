@@ -14,7 +14,7 @@
         </span>
       </a>
 
-      <a href="#" target="_blank"> <!-- Still need to upload my CV... -->
+      <a href="../assets/JLugo_CV.pdf" download="JLugo_CV.pdf">
         <span class="icon">
           <i class="far fa-file-pdf fa-lg" alt="PDF File Icon" title="My CV"></i>
         </span>
