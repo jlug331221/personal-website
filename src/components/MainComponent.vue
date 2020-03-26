@@ -145,9 +145,15 @@
 
             <p>
               If you have managed to read the <em>About Me</em> section above, then you'll know of
-              my love of motorsport. This has led me to my current position within the Haas Formula
-              1 Team. I am a Software Engineer within the Computational Fluid Dynamics department.
-              I have been at this position since late June, 2019.
+              my love of motorsport. This has led me to my current position within the
+              <a href="https://www.haasf1team.com/" target="_blank" class="haas-text">Haas</a> Formula 1 Team.
+              I am a Software Engineer within the Computational Fluid Dynamics (CFD) department
+              and I have been at this position since late June 2019. My current duties include maintaining
+              the <a href="https://www.paraview.org/" target="_blank" class="paraview-text">ParaView</a>
+              Python codebase and the continous development of two web applications built using
+              <a href="https://www.laravel.com/" target="_blank" class="laravel-text">Laravel</a>.
+              The first is a time keeping application and the other is the CFD application utilized by
+              Haas F1 Aero engineers.
             </p>
 
             <em><small><a class="red-underline" href="#top">Back to top</a></small></em>
@@ -262,7 +268,7 @@ export default {
 
       a {
         display: inline-block;
-        margin-left: 1rem;
+        //margin-left: 1rem;
         font-weight: bolder;
         text-align: right;
       }
@@ -303,6 +309,18 @@ export default {
     section.about, section.employment {
       h2, p, a {
         color: #363636;
+      }
+
+      .laravel-text {
+        color: #ff2d20
+      }
+
+      .paraview-text {
+        color: #2763bc;
+      }
+
+      .haas-text {
+        color: #E6002D;
       }
     }
 

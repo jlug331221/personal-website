@@ -22,18 +22,16 @@
     </div>
 
     <p class="name-copywrite-footer">
-      Justin Lugo | <small>&copy;</small>&nbsp;{{ new Date().getFullYear() }}
+      Justin Lugo | <small>&copy;</small>2019-{{ new Date().getFullYear() }}
     </p>
   </footer>
 
 </template>
 
 <script>
-
 export default {
   name: 'FooterComponent'
 }
-
 </script>
 
 <style scoped lang="scss">
