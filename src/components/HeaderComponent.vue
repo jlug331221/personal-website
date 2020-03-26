@@ -27,7 +27,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
   header {
     margin-top: -4rem;
 
@@ -110,7 +109,7 @@ export default {
         text-transform: uppercase;
         font-weight: bold;
         letter-spacing: 1px;
-        
+
         strong {
           color: white
         }
@@ -125,5 +124,4 @@ export default {
       }
     }
   }
-
 </style>

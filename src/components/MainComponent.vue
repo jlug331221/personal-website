@@ -159,43 +159,32 @@
 </template>
 
 <script>
-
 export default {
 
   name: 'MainComponent',
 
-  data() {
-
+  data () {
     return {
-      
       myAge: 0
-
     }
-
   },
 
   methods: {
-
-    getAge(birthdate) {
+    getAge (birthdate) {
       const yearInMilliSecs = 3.15576e+10
 
       return Math.floor((new Date() - new Date(birthdate).getTime()) / yearInMilliSecs)
     }
-
   },
 
-  created() {
-
+  created () {
     this.myAge = this.getAge('1988-12-21')
-      
   }
 
 }
-
 </script>
 
 <style scoped lang="scss">
-
   main.main-content {
     margin-top: -1.5rem;
 
@@ -330,5 +319,4 @@ export default {
       }
     }
   }
-
 </style>

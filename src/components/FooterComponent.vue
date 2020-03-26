@@ -37,7 +37,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-
   footer {
     padding-bottom: 1rem;
     background-color: #312C2F;
@@ -68,5 +67,4 @@ export default {
       padding-bottom: 1rem;
     }
   }
-
 </style>
