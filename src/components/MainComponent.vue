@@ -230,26 +230,26 @@
 export default {
   name: 'MainComponent',
 
-  data() {
+  data () {
     return {
-      myAge: 0,
-    };
+      myAge: 0
+    }
   },
 
   methods: {
-    getAge(birthdate) {
-      const yearInMilliSecs = 3.15576e10;
+    getAge (birthdate) {
+      const yearInMilliSecs = 3.15576e10
 
       return Math.floor(
         (new Date() - new Date(birthdate).getTime()) / yearInMilliSecs
-      );
-    },
+      )
+    }
   },
 
-  created() {
-    this.myAge = this.getAge('1988-12-21');
-  },
-};
+  created () {
+    this.myAge = this.getAge('1988-12-21')
+  }
+}
 </script>
 
 <style scoped lang="scss">

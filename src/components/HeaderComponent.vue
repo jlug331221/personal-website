@@ -18,8 +18,8 @@
 
 <script>
 export default {
-  name: 'HeaderComponent',
-};
+  name: 'HeaderComponent'
+}
 </script>
 
 <style scoped lang="scss">
