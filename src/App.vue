@@ -28,6 +28,8 @@ export default {
   $raleway: 'Raleway', sans-serif;
 
   #app {
+    background-color: #F3F3F3;
+
     h1, h2, h3, h4, h5, h6 {
       font-family: $lato;
     }
